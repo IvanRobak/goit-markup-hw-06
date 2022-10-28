@@ -572,7 +572,7 @@ img {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: 70px;
+  gap: 93px;
 }
 
 .footer-social-list {
@@ -606,8 +606,6 @@ img {
 .footer-form {
   display: flex;
   flex-direction: column;
-
-  margin-left: 23px;
 }
 
 .footer-wrapper-input {
@@ -683,6 +681,7 @@ img {
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  padding: 40px;
 }
 
 .modal-button {
@@ -711,10 +710,6 @@ img {
 .modal-button:hover .modal-icon,
 .modal-button:focus .modal-icon {
   fill: var(--brand-color);
-}
-
-.modal-form {
-  padding: 40px;
 }
 
 .form-title {
@@ -802,7 +797,6 @@ img {
   border: none;
   fill:var(--white-color);
   background-color: var(--brand-color);
-  transform: scale(1.2);
 }
 
 .checkbox-label {
@@ -824,7 +818,7 @@ img {
   border-radius: 4px;
   fill: var(--white-color);
 
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) fill 250ms cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-btn {
